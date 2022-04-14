@@ -1,0 +1,43 @@
+/* 공통 */
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+.space{clear: both;}
+.inner{width: 1400px; margin: 0 auto;}
+body{overflow-x: hidden;}
+
+/* 헤더부분 */
+#header{width: 100%; height: 90px; border-bottom: 1px solid #e6e9f0; line-height: 90px;}
+.logo{width: 27px; height: 30px; float: left;}
+#header>.inner{width: 1400px; height: 90px; position: relative;}
+.menu{width: 800px; position: absolute;left: 0; right: 0; margin: 0 auto;}
+.menu>li{width: 140px; float: left; text-align: center;}
+.top_banner{float: right; }
+.top_banner>li{float: left; padding-right: 10px;}
+.one{width: 50px; height: 50px; background-color: #3566d6; border-radius: 50%;margin-top: 22px; text-align: center; line-height: 50px; color: #fff; margin-left: 5px; padding-right: 0 !important;}
+
+/* 메인이미지부분 */
+#mainimg{width: 100%; height: 846px; background-image: url(../images/mainimg.png); background-size: cover;}
+
+
+/*콘텐츠부분*/
+#contents{padding-top: 150px;}
+.list{width: 25%; float: left;}
+.list:nth-child(1)>div{position: relative; background-image: url(../images/map_03.png); width: 326px; height: 260px;}
+.list:nth-child(1)>div>img{position: absolute; left: 0; right: 0; margin: 0 auto; top: 40%;}
+.list>h2{padding-bottom: 20px;}
+.list>p{padding-bottom: 40px;}
+.list:nth-child(2)>div, .list:nth-child(3)>div, .list:nth-child(4)>div{width: 324px; height: 158px; border: 1px solid #999; padding-top: 100px; text-align: center;}
+.box1{height: 535px;}
+.box2{width: 100%; height: 240px; border-top: 1px solid #e6e9f0; border-bottom: 1px solid #e6e9f0;}
+.box_text{float: left; padding-top: 100px;}
+.box_text>span{color: #3566d6;}
+.box_img{float: right; padding-top: 25px;}
+
+/* 푸터부분 */
+#footer{height: 100px;}
+.footer_info{float: left; font-size: 11px; color: #666; padding-top: 30px;}
+.footer_info>span{font-size: 13px; font-weight: bold; color: #000;}
+.footer_btn{float: right; padding-top: 35px;}
+.footer_btn>li{float: left;width: 80px; height: 30px; border: 1px solid #3566d6; text-align: center; line-height: 30px;margin-left: 7px;}
+.footer_btn>li:nth-child(1){border: none;}
+.footer_btn select{width: 80px; height: 30px; border: 1px solid #acacac;}
